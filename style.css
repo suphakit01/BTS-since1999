@@ -3,6 +3,55 @@
     padding: 0px;
 }
 
+
+
+/*     back to top button     */
+
+#button {
+      display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+    #button:active {
+    background-color: #555;
+}
+
+    #button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/*     Home Page     */
+
 .bgimage{
     background-image: url("Sky-4K.jpg");
     background-size: 100% 110%;
@@ -52,12 +101,7 @@
     line-height: 65px;
     margin-left: 40px;
     text-transform: uppercase;
-
 }
-
-/*#firstlist{
-    color: #CEF0FF;
-}*/
 
 .rightmenu ul li:hover{
     color: #CEF0FF;
@@ -71,31 +115,31 @@
     width: 10%;
     width: 10%;
     float: left;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 
 .text h4{
     font-size: 14px;
     font-family: 'Fredoka+One', sans-serif;
-    color: #284653;
+    color: #424953;
     opacity: 0.7;
-    margin-left: 300px;
+    margin-left: 350px;
 }
 
 .text h1{
     font-size: 60px;
     font-family: 'Fredoka+One', sans-serif;
-    color: #284653;
+    color: #424953;
     font-weight: bold;
     margin: 2px 0px;
-    margin-left: 300px;
+    margin-left: 350px;
 
 }
 
 .text button{
     color: white;
-    margin-left: 65px;
+    margin-left: 70px;
 }
 
 #buttonone{
@@ -109,4 +153,97 @@
     border-radius: 25px;
     border: 0px solid;
     cursor: pointer;
+}
+
+
+
+
+
+/*     Home Page     */
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.member{
+    background-color: #E5E8EC;
+    margin: 10px 0 0;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.main_member h1{
+    color: #424953;
+    font-family: 'Fredoka+One', sans-serif;
+    margin-bottom: 5px;
+}
+
+.border{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    background: #A9B1BC;
+}
+
+.ps{
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+
+.ps a:hover > img{
+    filter: none;
+}
+
+.name{
+
+    color: #424953;
+    font-family: 'Fredoka+One', sans-serif;
+    margin: auto;
+    height: 0;
+    overflow: hidden;
+}
+
+.name:target{
+    height: auto;
+}
+
+.name span{
+    display: block;
+    font-weight: bold;
+}
+
+.name p{
+    display: block;
+    font-weight: bold;
+    opacity: 0.7;
+    font-size: 80%;
+    margin-bottom: 5px;
+}
+
+.name .icon{
+    margin-top: 10px;
+    margin-bottom: 100px
+
 }
