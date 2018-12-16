@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" href="BTSbangkok.png" />
     <script src="my_js.js" type="text/javascript"></script>
+    <meta charset="utf-8">
 
 
     <!--    font    -->
@@ -32,10 +33,10 @@
             <div class="rightmenu">
                 <ul>
                     <li id="firstlist"> HOME </li>
-                    <li> INTRODUCTION </li>
-                    <li> ABOUT </li>
-                    <li> EFFECT TO BTS</li>
-                    <li> ABOUT US </li>
+                    <a href="#goto_introduction"><li> INTRODUCTION </li></a>
+                    <a href="#goto_about"><li> ABOUT </li></a>
+                    <a href="#goto_effect"><li> EFFECT TO BTS</li></a>
+                    <a href="#goto_aboutus"><li> ABOUT US </li></a>
                 </ul>
             </div>
 
@@ -45,7 +46,7 @@
             <img src="BTSbangkok.png">
             <h1> BTS SINCE 1999 </h1>
             <h4> END TAG TEAM < / > </h4>
-            <a><button id="buttonone"> LES'T GO! </button></a>
+            <a href="#goto_introduction"><button id="buttonone"> LES'T GO! </button></a>
         </div>
 
     </div>
@@ -55,7 +56,8 @@
 
     <!--    Introduction    -->
 
-    <div class="introduction">
+    <div class="introduction" id="goto_introduction">
+        <br><br><br><br>
         <h1 class="main_introduction">INTRODUCTION</h1>
         <span class="border"></span>
         <br><br><br>
@@ -67,9 +69,37 @@
 
 
 
+    <!--    about    -->
+
+    <div class="bgabout" id="goto_about">
+        <div class="about">
+            <h1 class="main_about">ABOUT PROJECT</h1>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!--    About Us    -->
 
-    <div class="member">
+    <div class="member" id="goto_aboutus">
         <dev class="main_member">
             <h1> OUR TEAM </h1>
             <span class="border"></span>

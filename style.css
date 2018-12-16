@@ -53,7 +53,7 @@
 /*     Home Page     */
 
 .bgimage{
-    background-image: url("Sky-4K.jpg");
+    background-image: url("bg/bg1.jpg");
     background-size: 100% 110%;
     width: 100%;
     height: 100vh;
@@ -171,6 +171,7 @@
 
 .introduction{
     text-align: center;
+    height: 100%;
 }
 
 .main_introduction{
@@ -201,7 +202,7 @@ hr {
 .introduction button{
     color: white;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 180px;
 }
 
 #buttontwo{
@@ -226,6 +227,43 @@ hr {
 .introduction a:hover > button{
     filter: none;
 }
+
+
+
+
+/*     Introduction     */
+
+.bgabout{
+    background-image: url(bg/bg2.png);
+    background-size: 100% 110%;
+    width: 100%;
+    height: 100vh;
+}
+
+.main_about{
+    color: #424953;
+    font-family: 'Fredoka+One', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 70px;
+}
+
+.about{
+    text-align: center;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
