@@ -214,7 +214,7 @@ hr {
     height: 100%;
 }
 
-hr {
+hr{
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -242,9 +242,34 @@ hr {
 }
 
 
-/*     OUR TEAM     */
 
-hr {
+
+/*     Graph Zone     */
+
+.graph{
+    background-color: #8bb8e9;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.main_graph h1{
+    color: white;
+    font-family: 'Fredoka+One', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.border2{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    background: #adcff4;
+    margin-bottom: 30px;
+}
+
+hr{
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -253,6 +278,106 @@ hr {
   border-style: inset;
   border-width: 1px;
 }
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+
+
+
+/*     OUR TEAM     */
 
 .member{
     background-color: #E5E8EC;
@@ -265,6 +390,16 @@ hr {
     color: #424953;
     font-family: 'Fredoka+One', sans-serif;
     margin-bottom: 5px;
+}
+
+hr{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
 }
 
 .border{
