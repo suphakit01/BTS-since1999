@@ -24,6 +24,6 @@ def graph_2012():
         16981454,
         16547860
         ])
-    line_chart.render_to_file("D:/PSIT/WEB/sub_graph/total_ridership1999.svg")
+    line_chart.render_to_file("D:/PSIT/WEB/sub_graph/total_ridership2012.svg")
 
 graph_2012()
