@@ -5,7 +5,7 @@
 
 
 
-/*     Home Page     */
+/*     Home Page Zone     */
 
 .menu{
     width: 100%;
@@ -123,7 +123,7 @@
 
 
 
-/*     Introduction     */
+/*     Introduction Zone     */
 
 .introduction{
     text-align: center;
@@ -186,7 +186,7 @@ hr {
 
 
 
-/*     about project     */
+/*     About Project Zone     */
 
 .bgabout{
     background-image: url(bg/bg2.png);
@@ -292,7 +292,6 @@ hr{
     display: none;
 }
 
-
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
@@ -353,6 +352,10 @@ hr{
     transition: background-color 0.6s ease;
 }
 
+.dot_zone{
+    margin-bottom: 70px;
+}
+
 .active, .dot:hover {
     background-color: #717171;
 }
@@ -377,13 +380,57 @@ hr{
 
 
 
+/*     Analysis Zone     */
+
+.analysis{
+    background-color: #E5E8EC;
+    text-align: center;
+}
+
+.main_analysis h1{
+    color: #7094c4;
+    font-family: 'Fredoka+One', sans-serif;
+    margin-bottom: 5px;
+}
+.border_a{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    background: #7094c4;
+    opacity: 0.5;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.analysis p{
+    font-family: 'Prompt', sans-serif;
+    width: 720px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+    margin-top: 50px;
+    color: #646C77;
+}
 
 
-/*     OUR TEAM     */
+
+
+
+
+/*     OUR TEAM Zone     */
 
 .member{
     background-color: #E5E8EC;
-    margin: 10px 0 0;
     padding-top: 5rem;
     text-align: center;
 }
@@ -394,7 +441,15 @@ hr{
     margin-bottom: 5px;
 }
 
-hr{
+.border{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    background: #A9B1BC;
+}
+
+hr {
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -402,14 +457,6 @@ hr{
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-}
-
-.border{
-    display: block;
-    margin: auto;
-    width: 100px;
-    height: 3px;
-    background: #A9B1BC;
 }
 
 .ps{
@@ -464,7 +511,7 @@ hr{
 
 .name .icon{
     margin-top: 10px;
-    margin-bottom: 100px
+    margin-bottom: 100px;
 }
 
 
@@ -472,7 +519,7 @@ hr{
 
 /*     back to top button     */
 
-#button {
+#button{
     display: inline-block;
     background-color: #FF9800;
     width: 60px;
@@ -491,7 +538,7 @@ hr{
     text-align: center;
 }
 
-#button::after {
+#button:after{
     content: "\f077";
     font-family: FontAwesome;
     font-weight: normal;
@@ -501,16 +548,16 @@ hr{
     color: #fff;
 }
 
-#button:hover {
+#button:hover{
     cursor: pointer;
     background-color: #333;
 }
 
-#button:active {
+#button:active{
     background-color: #555;
 }
 
-#button.show {
+#button.show{
     opacity: 1;
     visibility: visible;
 }
