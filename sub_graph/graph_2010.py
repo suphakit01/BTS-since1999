@@ -12,7 +12,6 @@ def graph_2010():
     line_chart.x_labels = map(str, date)
     line_chart.y_labels = map(int, y_label)
     line_chart.add('Total Ridership', [12355949,
-        12355949,
         11862466,
         13033511,
         9500859,
@@ -25,6 +24,6 @@ def graph_2010():
         13306413,
         13189283
         ])
-    line_chart.render_to_file("D:/PSIT/WEB/sub_graph/total_ridership1999.svg")
+    line_chart.render_to_file("D:/PSIT/WEB/sub_graph/total_ridership2010.svg")
 
 graph_2010()
