@@ -6,7 +6,7 @@ def graph_2001():
     date = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     y_label = [0, 5000000, 10000000, 15000000, 20000000]
 
-    line_chart = pygal.Line()
+    line_chart = pygal.Line(legend_at_bottom=True)
     line_chart.title = 'Total Ridership of BTS 2001'
 
     line_chart.x_labels = map(str, date)
