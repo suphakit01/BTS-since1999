@@ -287,12 +287,14 @@ hr{
     max-width: 1000px;
     position: relative;
     margin: auto;
+    height: 70vh;
 }
 
 /* Hide the images by default */
 .mySlides {
     display: none;
 }
+
 
 /* Next & previous buttons */
 
@@ -312,7 +314,7 @@ hr{
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
-.pre{
+.prev{
     left: 120px;
 }
 /* Position the "next button" to the right */
