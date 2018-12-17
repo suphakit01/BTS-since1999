@@ -123,7 +123,6 @@
 
 
 
-
 /*     Introduction     */
 
 .introduction{
@@ -187,7 +186,6 @@ hr {
 
 
 
-
 /*     about project     */
 
 .bgabout{
@@ -240,7 +238,6 @@ hr{
     color: white;
     opacity: 0.8;
 }
-
 
 
 
@@ -297,9 +294,6 @@ hr{
 
 
 /* Next & previous buttons */
-
-
-
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -512,11 +506,11 @@ hr{
     background-color: #333;
 }
 
-    #button:active {
+#button:active {
     background-color: #555;
 }
 
-    #button.show {
+#button.show {
     opacity: 1;
     visibility: visible;
 }

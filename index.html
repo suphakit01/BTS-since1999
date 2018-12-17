@@ -12,7 +12,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
-
     <script>src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Smoothscoll -->
 
 <!--    font    -->
@@ -51,18 +50,6 @@
                 <a href="#goto_introduction"><button id="buttonone"> LES'T GO! </button></a>
             </div>
         </div>
-<!--
-        <div class="text">
-            <div class="bgtext">
-                <img src="icon/BTSbangkok.png">
-                <h1> BTS SINCE 1999 </h1>
-                <h4> END TAG TEAM < / > </h4>
-                <a href="#goto_introduction"><button id="buttonone"> LES'T GO! </button></a>
-            </div>
-        </div>
-
-    </div>
--->
 
 
 
@@ -256,6 +243,110 @@
             <span class="dot" onclick="currentSlide(20)"></span>
         </div>
 
+
+
+    <!--    About Us    -->
+
+    <div class="member" id="goto_aboutus">
+        <dev class="main_member">
+            <h1> OUR TEAM </h1>
+            <span class="border"></span>
+        </dev>
+
+        <div class="ps">
+            <a href="#arm"><img src="pic_mem/arm.jpg" alt=""></a>
+            <a href="#aom"><img src="pic_mem/aom.jpg" alt=""></a>
+            <a href="#vit"><img src="pic_mem/vit.jpg" alt=""></a>
+        </div>
+
+        <div class="name" id="arm">
+            <span>Suphakit  Nachom</span>
+            <p>61070250</p>
+            <a href="https://github.com/suphakit01" target="_blank">
+                <img class="icon" src="icon/github.png" width="3%" height="3%">
+            </a>
+            <a href="https://www.facebook.com/armsuphakitN" target="_blank">
+                <img class="icon" src="icon/face.png" width="3%" height="3%">
+            </a>
+        </div>
+
+        <div class="name" id="aom">
+            <span>Thivawat  kaewdungdee</span>
+            <p>61070066</p>
+            <a href="https://github.com/Thivawat" target="_blank">
+                <img class="icon" src="icon/github.png" width="3%" height="3%">
+            </a>
+            <a href="https://www.facebook.com/aom.thivawat" target="_blank">
+                <img class="icon" src="icon/face.png" width="3%" height="3%">
+            </a>
+        </div>
+
+        <div class="name" id="vit">
+            <span>Sirawit  Pokha</span>
+            <p>61070242</p>
+            <a href="https://github.com/ovlevit" target="_blank">
+                <img class="icon" src="icon/github.png" width="3%" height="3%">
+            </a>
+            <a href="https://www.facebook.com/OVLEVIT" target="_blank">
+                <img class="icon" src="icon/face.png" width="3%" height="3%">
+            </a>
+    </div>
+
+
+
+    <!--    Back to top button JS    -->
+    <div id="button"></div>
+    <script type="text/javascript">
+        var btn = $('#button');
+
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function(e) {
+            e.preventDefault();
+            $('html, body').animate({scrollTop:0}, '300');
+        });
+    </script>
+
+
+
+    <!--    Smooth Scroll JS    -->
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+
+
+    <!--    Slide Graph JS    -->
+
     <script type="text/javascript">
         var slideIndex = 1;
         showSlides(slideIndex);
@@ -285,118 +376,6 @@
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
         }
-    </script>
-
-<!--    <div class="bggraph" id="goto_effect">
-        <dev class="main_graph">
-            <h1> EFFECT TO TOTAL RIDERSHIP </h1>
-            <span class="border"></span>
-        </dev>
-
-        <div class="graph_zone">
-            <embed type="image/svg+xml" src="sub_graph/total_ridership1999.svg">
-        </div>
-    </div>
--->
-
-
-
-    <!--    About Us    -->
-
-    <div class="member" id="goto_aboutus">
-        <dev class="main_member">
-            <h1> OUR TEAM </h1>
-            <span class="border"></span>
-        </dev>
-
-        <div class="ps">
-            <a href="#arm"><img src="pic_mem/arm.jpg" alt=""></a>
-            <a href="#aom"><img src="pic_mem/aom.jpg" alt=""></a>
-            <a href="#vit"><img src="pic_mem/vit.jpg" alt=""></a>
-        </div>
-
-        <div class="name" id="arm">
-            <span>Suphakit  Nachom</span>
-            <p>61070250</p>
-            <a href="https://github.com/suphakit01" target="_blank">
-                <img class="icon" src="icon/github.png" width="3%" height="3%">
-            </a>
-            <a href="https://www.facebook.com/armsuphakitN" target="_blank">
-                <img class="icon" src="icon/face.png" width="3%" height="3%">
-            </a>
-        </div>
-
-        <div class="name" id="aom">
-            <span>Thivawat kaewdungdee</span>
-            <p>61070066</p>
-            <a href="https://github.com/Thivawat" target="_blank">
-                <img class="icon" src="icon/github.png" width="3%" height="3%">
-            </a>
-            <a href="https://www.facebook.com/aom.thivawat" target="_blank">
-                <img class="icon" src="icon/face.png" width="3%" height="3%">
-            </a>
-        </div>
-
-        <div class="name" id="vit">
-            <span>Sirawit Pokha</span>
-            <p>61070242</p>
-            <a href="https://github.com/ovlevit" target="_blank">
-                <img class="icon" src="icon/github.png" width="3%" height="3%">
-            </a>
-            <a href="https://www.facebook.com/OVLEVIT" target="_blank">
-                <img class="icon" src="icon/face.png" width="3%" height="3%">
-            </a>
-        </div>
-
-
-
-    <!--    Back to top button    -->
-    <div id="button"></div>
-    <script type="text/javascript">
-        var btn = $('#button');
-
-        $(window).scroll(function() {
-            if ($(window).scrollTop() > 300) {
-                btn.addClass('show');
-            } else {
-                btn.removeClass('show');
-            }
-        });
-
-        btn.on('click', function(e) {
-            e.preventDefault();
-            $('html, body').animate({scrollTop:0}, '300');
-        });
-    </script>
-
-
-
-    <!--    Smooth Scroll    -->
-    <script>
-        $(document).ready(function(){
-            // Add smooth scrolling to all links
-            $("a").on('click', function(event) {
-
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function(){
-
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
     </script>
 
 
