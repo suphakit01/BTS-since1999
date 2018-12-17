@@ -250,6 +250,7 @@ hr{
     background-color: #8bb8e9;
     padding-top: 5rem;
     text-align: center;
+    height: 1000px;
 }
 
 .main_graph h1{
@@ -294,6 +295,9 @@ hr{
 }
 
 /* Next & previous buttons */
+
+
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -308,10 +312,12 @@ hr{
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
-
+.pre{
+    left: 120px;
+}
 /* Position the "next button" to the right */
 .next {
-    right: 0;
+    right: 120px;
 }
 
 /* On hover, add a black background color with a little bit see-through */

@@ -21,8 +21,8 @@ def graph_2018():
         21548827,
         19948031,
         20094644,
-        21154634
-        ])
+        21154634,
+        None])
     line_chart.render_to_file("D:/PSIT/WEB/sub_graph/total_ridership2018.svg")
 
 graph_2018()
