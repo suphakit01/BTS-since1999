@@ -354,6 +354,7 @@ hr{
 
 .dot_zone{
     margin-bottom: 70px;
+    margin-top: 20px;
 }
 
 .active, .dot:hover {
@@ -419,9 +420,46 @@ hr {
     color: white;
     opacity: 0.8;
     margin-top: 50px;
-    color: #646C77;
+    color: white;
 }
 
+.analysis button{
+    color: white;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+#buttonthree{
+    background-color: #F34452;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Fredoka+One', sans-serif;
+    line-height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    border-radius: 25px;
+    border: 0px solid;
+    cursor: pointer;
+}
+
+.analysis a button{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+}
+
+.analysis a:hover > button{
+    filter: none;
+}
+
+.analysis{
+    width: 100% !important;
+    height: 500px;
+    background-image: url('bg/p1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
