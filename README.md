@@ -11,13 +11,13 @@
 2. ข้อมูลเหตุการณ์สำคัญที่เกิดขึ้นในประเทศไทยจาก https://th.wikipedia.org/
 
 ## Presentation
-⋅⋅* [Website](https://suphakit01.github.io/BTS-since1999/)
-⋅⋅* [YouTube](https://suphakit01.github.io/BTS-since1999/)
+* [Website](https://suphakit01.github.io/BTS-since1999/)
+* [YouTube](https://suphakit01.github.io/BTS-since1999/)
 
 ## Built With
-⋅⋅* Python `3.7.1`
+* Python `3.7.1`
 
 </> (end tag team)
-⋅⋅* Suphakit  Nachom  61070250 - [suphakit01](https://github.com/suphakit01)
-⋅⋅* Siravit  Pokha  61070242 - [ovlevit](https://github.com/ovlevit)
-⋅⋅* Siravit  Pokha  61070066 - [Thivawat](https://github.com/Thivawat)
+* Suphakit  Nachom  61070250 - [suphakit01](https://github.com/suphakit01)
+* Siravit  Pokha  61070242 - [ovlevit](https://github.com/ovlevit)
+* Siravit  Pokha  61070066 - [Thivawat](https://github.com/Thivawat)
