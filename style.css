@@ -158,7 +158,7 @@ hr {
 .introduction button{
     color: white;
     margin: auto;
-    margin-bottom: 180px;
+    margin-bottom: 50px;
 }
 
 #buttontwo{
@@ -182,6 +182,43 @@ hr {
 
 .introduction a:hover > button{
     filter: none;
+}
+
+.icon_intro{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.icon_intro a{
+    display: inline-block;
+    margin: 0 35px;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.icon_intro a img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.text_intro ul{
+    text-align: center;
+    width: 1310px;
+    font-family: 'Prompt', sans-serif;
+    margin-bottom: 170px;
+}
+
+.text_intro ul li{
+
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    color: #646C77;
+    font-weight: bold;
+    margin-left: 40px;
+    text-transform: uppercase;
 }
 
 
@@ -467,7 +504,7 @@ hr {
 
 .member{
     background-color: #E5E8EC;
-    padding-top: 5rem;
+    padding-top: 9rem;
     text-align: center;
 }
 
