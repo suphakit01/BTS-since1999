@@ -1,4 +1,5 @@
 # BTS since 1999
+Data analysis project about Ridership of BTS
 
 ## Topic
 * วิเคราะห์ว่ามี Total Ridership ช่วงใดไหมที่น้อยลงผิดปกติ และเหตุใดจึงเป็นเช่นนั้น
@@ -16,7 +17,7 @@
 * Python `3.7.1`
     - pygal `2.0.0`
 
-## </> (end tag team)
+## Authors
 * Suphakit  Nachom  61070250 - [suphakit01](https://github.com/suphakit01)
 * Siravit  Pokha  61070242 - [ovlevit](https://github.com/ovlevit)
 * Siravit  Pokha  61070066 - [Thivawat](https://github.com/Thivawat)
