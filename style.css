@@ -50,7 +50,7 @@
     color: white;
     font-weight: bold;
     line-height: 65px;
-    margin-left: 40px;
+    margin-left: 50px;
     text-transform: uppercase;
 }
 
@@ -451,42 +451,12 @@ hr {
 
 .analysis p{
     font-family: 'Prompt', sans-serif;
-    width: 720px;
+    width: 810px;
     margin: auto;
     text-align: center;
     color: white;
     opacity: 0.8;
-    margin-top: 50px;
-    color: white;
-}
-
-.analysis button{
-    color: white;
-    margin: auto;
-    margin-bottom: 70px;
-}
-
-#buttonthree{
-    background-color: #F34452;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Fredoka+One', sans-serif;
-    line-height: 40px;
-    width: 150px;
-    margin-top: 25px;
-    border-radius: 25px;
-    border: 0px solid;
-    cursor: pointer;
-}
-
-.analysis a button{
-    width: 100%;
-    filter: grayscale(100%);
-    transition: 0.4s all;
-}
-
-.analysis a:hover > button{
-    filter: none;
+    margin-top: 35px;
 }
 
 .analysis{
@@ -497,6 +467,84 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+/*     Graph2 Zone     */
+
+.graph2{
+    background-color: #E5E8EC;
+    padding-top: 5rem;
+    text-align: center;
+    height: 100%;
+}
+
+.main_graph2 h1{
+    color: #424953;
+    font-family: 'Fredoka+One', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.graph2 embed{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+
+/*     Analysis2 Zone     */
+
+.analysis2{
+    background-color: #E5E8EC;
+    text-align: center;
+}
+
+.main_analysis2 h1{
+    color: #7094c4;
+    font-family: 'Fredoka+One', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+.border_a{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 3px;
+    background: #7094c4;
+    opacity: 0.5;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.analysis2 p{
+    font-family: 'Prompt', sans-serif;
+    width: 720px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+    margin-top: 50px;
+}
+
+.analysis2{
+    width: 100% !important;
+    height: 500px;
+    background-image: url('bg/p2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 
