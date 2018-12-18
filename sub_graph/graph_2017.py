@@ -7,7 +7,7 @@ def graph_2017():
     y_label = [0, 5000000, 10000000, 15000000, 20000000]
 
     line_chart = pygal.Line(legend_at_bottom=True)
-    line_chart.title = 'Total Ridership of BTS 2017'
+    line_chart.title = 'Total Ridership of BTS 2017 (หน่วย : เที่ยวคน)'
 
     line_chart.x_labels = map(str, date)
     line_chart.y_labels = map(int, y_label)
