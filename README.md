@@ -6,7 +6,7 @@ Data analysis project about Ridership of BTS
 * วิเคราะห์แนวโน้มของผู้โดยสารที่มาใช้บริการในอนาคต
 
 ## Resources
-* `ridershipData-201811` - [http://www.btsgroup.co.th](http://www.btsgroup.co.th/th/investor-relations/bts-ridership)
+* `ridershipData1999-2018` - [http://www.btsgroup.co.th](http://www.btsgroup.co.th/th/investor-relations/bts-ridership)
 * `wikipedia` - [https://th.wikipedia.org/](https://th.wikipedia.org/)
 
 ## Presentation
