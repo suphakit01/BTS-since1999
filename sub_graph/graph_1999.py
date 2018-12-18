@@ -22,7 +22,7 @@ def graph_1999():
         None,
         None,
         4585743])
-    line_chart.title = 'Total Ridership of BTS 1999 (หน่วย : เที่ยวคน)'
+    line_chart.title = 'Total Ridership of BTS 1999 (หน่วย : ล้านเที่ยวคน)'
     line_chart.render_to_file("D:/PSIT/WEB/sub_graph/total_ridership1999.svg")
 
 graph_1999()
