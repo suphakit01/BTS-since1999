@@ -11,7 +11,7 @@ Data analysis project about Ridership of BTS
 
 ## Presentation
 * [Website](https://suphakit01.github.io/BTS-since1999/)
-* [YouTube](https://suphakit01.github.io/BTS-since1999/)
+* [YouTube](https://youtu.be/RpThrVfvrMo)
 
 ## Built With
 * Python `3.7.1`
