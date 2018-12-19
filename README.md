@@ -20,4 +20,4 @@ Data analysis project about Ridership of BTS
 ## Authors
 * Suphakit  Nachom  61070250 - [suphakit01](https://github.com/suphakit01)
 * Siravit  Pokha  61070242 - [ovlevit](https://github.com/ovlevit)
-* Siravit  Pokha  61070066 - [Thivawat](https://github.com/Thivawat)
+* Thivawat  kaewdungdee  61070066 - [Thivawat](https://github.com/Thivawat)
